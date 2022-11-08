@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+
+    <title>litebw</title>
+
+    <link rel="stylesheet" href="assets/main.css">
+    <script defer src="assets/main.js"></script>
+    <script defer src="assets/js/all.js"></script>
+  </head>
+  <body>
+    <div id="navbar">
+        <h1>[ litebw ]</h1>
+    </div>
+
+    <div id="main">
+        <div id="login">
+            <h1>Login to <input id="instance" type="text" placeholder="v2.blacket.org" value="v2.blacket.org"></h1>
+            <div id="tabs">
+              <h5 id="userpass">Username/Password</h5>
+              <h5 id="sessionid">Session ID</h5>
+            </div>
+            <div id="panels">
+              <div data-associates-with="userpass">
+                <input id="user" type="text" placeholder="username">
+                <input id="pass" type="password" placeholder="password">
+                <h3 style="margin: 5px;">Or use an existing alt</h3>
+                <div id="altMenu"></div>
+              </div>
+              <div data-associates-with="sessionid">
+                <input id="session" type="text" placeholder="session id">
+              </div>
+            </div>
+            <button id="loginBtn">Login.</button>
+        </div>
+    </div>
+  </body>
+</html>

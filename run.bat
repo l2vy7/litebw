@@ -1,0 +1,1 @@
+releases\\litebw-win32-x64\\litebw.exe

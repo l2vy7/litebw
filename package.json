@@ -1,0 +1,21 @@
+{
+  "name": "litebw",
+  "productName": "litebw",
+  "version": "1.0.0",
+  "description": "The first alternative, privacy-respecting, and simple client for Blacket V2!",
+  "main": "index.js",
+  "scripts": {
+    "setup":"node setup.js && echo Thank you! LiteBW has been set up and is ready for use!",
+    "run":"releases\\litebw-win32-x64\\litebw.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@princedev/redact": "^1.1.0",
+    "bad-words": "^3.0.4",
+    "blacket-turtle": "^0.0.3",
+    "electron": "^21.2.2",
+    "swearjar": "^0.2.0"
+  }
+}
